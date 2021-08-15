@@ -1,0 +1,134 @@
+body {
+    font-family:  Verdana, Arial, Helvetica, sans-serif; /* Still trying to find a font I like */
+    width: 90%;
+    max-width: 1080px; /* I think 1080 is a pretty common size, so that's why I chose it */
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+header {
+    width: 96.875%;
+    padding: 15px 1.5625%;
+    border-bottom: 2px solid black;
+    background-color: #004C54; /* Midnight Green and Black are the official colors of the Eagles */
+}
+
+header img {
+    width: 100%;
+}
+
+#top_nav ul {
+    list-style-type: none;
+    padding: 0.5em 0;
+    text-align: center;
+}
+
+#top_nav ul li {
+    display: inline;
+    padding: 0 0.5em;
+}
+
+#top_nav ul li a {
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+}
+
+#top_nav ul li a.current {
+    background-color: #168900;
+}
+
+main {
+    width: 59.375%;
+    padding: 10px 1.5625%;
+    float: left;
+} 
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.25em;
+}
+
+h3 {
+    font-size: 1em;
+}
+.center {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+
+aside {
+    width:  30%;
+    padding: 30px 1.5625%;
+    float: right; 
+}
+
+aside ul {
+    list-style-image: url(../images/eagles_head_ul.png);
+}
+
+aside li {
+    padding-bottom: 0.5em;
+}
+
+aside a:hover, a:focus {
+    color: #004C54;
+    font-size: 150%;
+}
+
+footer {
+    clear: both;
+    width: 96.875%;
+    padding: 15px 1.5625%;
+    border-top: 2px solid black;
+    background-color: #004C54;
+    color: #fff;
+}
+
+.logo {
+    width: 1em;
+    padding-right: 0.5em;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+td {
+    padding: 0.5em 0.5em;
+}
+
+.disclaimer {
+    font-size: small;
+}
+
+article {
+    width: 535px;
+    margin-right: 20px;
+    padding-left: 25px;
+    float: left;
+}
+
+article img {
+    width: 50%;
+    float: left; /* Images will float to left of text */
+    margin: 0 1.5em 0.75em 0;
+}
+
+.article_date {
+    font-size: small;
+    color: #676767; /* A gray that will make it distinct from article content */
+}
+
+hr { 
+    clear: both; /* Horizontal ruler below each article */
+    margin: 0.5em auto;
+    border-style: solid;
+    border-width: 1px;
+}
