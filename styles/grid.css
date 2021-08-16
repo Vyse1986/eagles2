@@ -37,10 +37,14 @@ header img {
     width: 100%;
 }
 
+/* Nav will be using Flexbox */
 #top_nav ul {
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
     padding: 0.5em 0;
-    text-align: center;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #top_nav ul li {
