@@ -40,6 +40,8 @@ header img {
 
 #top_nav ul li a.current {
     background-color: #168900;
+    border: 2px #fff solid;
+    padding: 5px;
 }
 
 main {

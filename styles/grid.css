@@ -60,6 +60,8 @@ header img {
 
 #top_nav ul li a.current {
     background-color: #168900;
+    border: 2px #fff solid;
+    padding: 5px;
 }
 
 main {
@@ -83,6 +85,33 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 15px;
+}
+
+#rollover {
+    background-image: url(../images/trenches_resized.png);
+    width: 512px;
+    height: 341px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rollover:hover {
+    background-image: url(../images/ward_resized.png);
+    width: 512px;
+    height: 341px;
+}
+
+.photos img{
+    width: 75%;
+}
+
+figure {
+    padding-bottom: 2em;
+}
+
+figcaption {
+    font-size: smaller;
+    padding-top: 0.25em;
 }
 
 aside {
