@@ -47,9 +47,33 @@
             </figure>
             <figure class="photos">   <!--Figure with caption-->
                 <img src="images/reagor_resized.png" alt="Gameday helmet">
-                <figcaption>WR Jalen Reagor makes an amazing one-handed touchdown catch</figcaption>
+                <figcaption>WR Jalen Reagor makes a one-handed touchdown catch.</figcaption>
             </figure>
-            <picture></picture>
+            <figure class="photos">
+            <picture> <!--Image that depends on screen size-->
+                <source media="(min-width: 980px)" srcset="images/wallace.jpg">
+                <source media="(min-width: 650px)" srcset="images/mailata.jpg">
+                <source media="(min-width: 460px)" srcset="images/sanders.jpg">
+                <img src="images/eagles_head_resized.png" alt="">
+            </picture>
+            <figcaption>Change the size of your screen to view different images!</figcaption>
+            </figure>
+            <figure class="photos">
+                <img src="images/ertz.jpg" alt="Roster or Contact Us" usemap="#fans"> <!--Image Map goes to Roster or Contact Us-->
+                <map name="fans">
+                    <area href="roster.html"
+                        shape="rect"
+                        alt="Roster Page"
+                        title="Roster"
+                        coords="0, 0, 225, 288">
+                    <area href="contact.html"
+                        shape="rect"
+                        alt="Contact Us Page"
+                        title="Contact Us"
+                        coords="226, 0, 512, 288">
+                </map>
+                <figcaption>Left side goes to Roster page. Right side goes to Contact Us page.</figcaption>
+            </figure>
     </div>
     </main>
 
