@@ -1,0 +1,33 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    width: auto;
+    color: black;
+    background-color: white;
+    grid-template-columns: auto; /* Helps make the page easier to read for printing */
+    grid-template-rows: auto; /* Helps make the page easier to read for printing */
+    grid-gap: 0px;
+}
+
+header {
+    display: none; /* Header is completely removed from printer css b/c it's made of only an image and a nav*/
+}
+
+h1 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+aside {
+    display: none;
+}
+
+main {
+    width: auto;
+}
+
+a {
+    display: none; /* The image is also a link, so I removed the link to also remove image for printing */
+}
+
+footer {
+    padding: 5px; /* The padding made the footer look huge for printing, so I reduced it */
+}

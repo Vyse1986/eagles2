@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Vedhas' Philadelphia Eagles Project</title>
+    <title>Contact the Eagles</title>
     <meta charset="utf-8">
     <meta name="description" content="Philadelphia Eagles Roster, Schedule, and News.">
     <meta name="keywords" content="Philadelphia Eagles, NFL, team history">
     <link href="styles/normalize.css"  rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
     <link rel="eagles icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6746b2c8ea.js" crossorigin="anonymous"></script> <!--Font Awesome icon code-->
 </head>
 
@@ -33,13 +34,16 @@
 
     <main>        
     <div class="main">
-        <h1>Contact Us:</h1>
-        <form name="contactus" action="submit.html" method="get">
-            First Name: <input type="text" name="firstname"><br><br>
-            Last Name: <input type="text" name="lastname"><br><br>
-            Email Address: <input type="email" name="email" placeholder="address@email.com"><br><br>
-            Comments:<br>
-            <textarea name="comments" placeholder="Please tell us why you are contacting us, and how we can help."></textarea><br><br>
+        <h1>Contact Us</h1>
+        <form name="contactus" action="submit.html" method="get"> <!--Form for name, email, and comments-->
+            <i class="fas fa-signature"></i> <!--Signature icon from Font Awesome--><label for="firstname">First Name:</label>
+            <input type="text" name="firstname" placeholder="Jeffrey"><br><br> 
+            <i class="fas fa-signature"></i> <!--Signature icon from Font Awesome--><label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" placeholder="Lurie"><br><br> 
+            <i class="fas fa-envelope-open-text"></i> <!--email icon from Font Awesome--><label for="email">Email Address:</label>
+            <input type="email" name="email" placeholder="swoop@eagles.com"><br><br>
+            <i class="fas fa-comments"></i> <!--Comment icon from Font Awesome--><label for="comments">Comments:</label><br>
+            <textarea name="comments" placeholder="Please tell us why you are contacting us and how we can help."></textarea><br><br>
             <input type="submit" id="button" value="Submit">
             <input type="reset" id="reset"><br><br>
         </form>
