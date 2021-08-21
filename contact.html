@@ -3,8 +3,8 @@
 <head>
     <title>Contact the Eagles</title>
     <meta charset="utf-8">
-    <meta name="description" content="Philadelphia Eagles Roster, Schedule, and News.">
-    <meta name="keywords" content="Philadelphia Eagles, NFL, team history">
+    <meta name="description" content="Philadelphia Eagles Contact Us Form">
+    <meta name="keywords" content="Philadelphia Eagles, NFL, contact us, comment, form">
     <link href="styles/normalize.css"  rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
     <link rel="eagles icon" href="images/favicon.ico">
@@ -37,13 +37,13 @@
         <h1>Contact Us</h1>
         <form name="contactus" action="submit.html" method="get"> <!--Form for name, email, and comments-->
             <i class="fas fa-signature"></i> <!--Signature icon from Font Awesome--><label for="firstname">First Name:</label>
-            <input type="text" name="firstname" placeholder="Jeffrey"><br><br> 
+            <input type="text" id="firstname" name="firstname" placeholder="Jeffrey"><br><br> 
             <i class="fas fa-signature"></i> <!--Signature icon from Font Awesome--><label for="lastname">Last Name:</label>
-            <input type="text" name="lastname" placeholder="Lurie"><br><br> 
+            <input type="text" id="lastname" name="lastname" placeholder="Lurie"><br><br> 
             <i class="fas fa-envelope-open-text"></i> <!--email icon from Font Awesome--><label for="email">Email Address:</label>
-            <input type="email" name="email" placeholder="swoop@eagles.com"><br><br>
+            <input type="email" id="email" name="email" placeholder="swoop@eagles.com"><br><br>
             <i class="fas fa-comments"></i> <!--Comment icon from Font Awesome--><label for="comments">Comments:</label><br>
-            <textarea name="comments" placeholder="Please tell us why you are contacting us and how we can help."></textarea><br><br>
+            <textarea id="comments" name="comments" placeholder="Please tell us why you are contacting us and how we can help."></textarea><br><br>
             <input type="submit" id="button" value="Submit">
             <input type="reset" id="reset"><br><br>
         </form>

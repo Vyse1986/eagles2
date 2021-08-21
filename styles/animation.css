@@ -1,0 +1,10 @@
+#animate {
+    margin-left: 20%;
+    animation: logomove 4s ease-in-out 3s 2 alternate; /* Had the count as infinite, but that didn't make sense on the news page */
+}
+
+@keyframes logomove {
+    from {margin-left: 20%;} /*It was easier to see the keyframe written out like this */
+    66% {margin-left: 55%;}
+    to {margin-left: 0%; width: 70%;}
+}
